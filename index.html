@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS dosyasını bağlama -->
+</head>
+
+<body>
+    <header>
+
+
+        <div class="platform-buttons">
+            <a href="index.html" class="platform-button">Windows</a>
+            <a href="android.html" class="platform-button">Android</a>
+        </div>
+        
+        
+        
+        <div class="logo">
+            <img src="logom.jpg" alt="Logo">
+            <h1>𝓡𝓔𝓣𝓡𝓞 𝓖𝓐𝓜𝓔</h1> <!-- Sitenin adı eklendi -->
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Oyun Ara...">
+            <button>Ara</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="social-links">
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><img src="YouTube.png" alt="YouTube"></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src="twitter.png" alt="Twitter"></a>
+                <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer"><img src="tiktok.png" alt="TikTok"></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+            <img src="https://i.pinimg.com/originals/41/60/61/416061b9d95e206d7bbeb51e644cca6e.gif" alt="Banner">
+        </div>
+
+        <div class="no-results-message" style="display: none; text-align: center; color: orange; margin-top: 20px;">
+            Oyun bulunamadı!
+        </div>
+
+        <div class="game-cards">
+            <div class="card">
+                <img src="logom.jpg" alt="Oyun 1">
+                <div class="overlay">
+                    <a href="https://example.com/game1-download" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 1</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="game2.jpg" alt="Oyun 2">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 2</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="game3.jpg" alt="Oyun 3">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 3</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="game4.jpg" alt="Oyun 4">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 4</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="game5.jpg" alt="Oyun 5">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 5</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="game6.jpg" alt="Oyun 6">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 6</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="game7.jpg" alt="Oyun 7">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 7</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://icon-library.com/images/counter-strike-icon/counter-strike-icon-26.jpg" alt="Oyun 8">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 8</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+            <!-- Daha fazla oyun kartı ekleyebilirsiniz -->
+            <div class="card">
+                <img src="game9.jpg" alt="Oyun 9">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 9</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="game9.jpg" alt="Oyun 10">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 10</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="game9.jpg" alt="Oyun 11">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 11</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="game9.jpg" alt="Oyun 12">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 12</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="game9.jpg" alt="Oyun 13">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    
+                    <h3>Oyun 13</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="game9.jpg" alt="Oyun 14">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 14</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="game9.jpg" alt="Oyun 15">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 15</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="game9.jpg" alt="Oyun 16">
+                <div class="overlay">
+                    <a href="#indir" class="download" target="_blank">İndirme Linki</a>
+                    <a href="#detay" class="details" target="_blank">Detaylar</a>
+                </div>
+                <div class="card-info">
+                    <h3>Oyun 16</h3>
+                    <p>Oyun hakkında kısa bilgi...</p>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <!-- Yapışkan buton -->
+    <button class="scroll-to-top" onclick="scrollToTop()">⬆️</button>
+
+    <script src="script.js"></script> <!-- JavaScript dosyasını bağlama -->
+</body>
+
+</html>
